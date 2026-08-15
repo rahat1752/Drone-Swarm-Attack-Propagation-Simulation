@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>swarm_chain</name>
+  <version>3.0.3</version>
+  <description>PX4 ROS 2 chain and inverted-V swarm controllers for UAV swarm attack-propagation experiments.</description>
+  <maintainer email="anonymous@example.com">Anonymous Authors</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>px4_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>ros2launch</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

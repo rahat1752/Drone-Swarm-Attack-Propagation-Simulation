@@ -1,0 +1,38 @@
+{
+  "leader": 1,
+  "description": "Exact original order D1->D2->D3->D4->D5; contains long D4->D5 cross-link.",
+  "chain": {
+    "2": {
+      "parent": 1,
+      "offset": [
+        -3,
+        -3,
+        0
+      ]
+    },
+    "3": {
+      "parent": 2,
+      "offset": [
+        6,
+        0,
+        0
+      ]
+    },
+    "4": {
+      "parent": 3,
+      "offset": [
+        3,
+        -3,
+        0
+      ]
+    },
+    "5": {
+      "parent": 4,
+      "offset": [
+        -12,
+        0,
+        0
+      ]
+    }
+  }
+}

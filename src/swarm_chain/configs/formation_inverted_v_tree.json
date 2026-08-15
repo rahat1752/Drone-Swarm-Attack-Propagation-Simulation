@@ -1,0 +1,38 @@
+{
+  "leader": 1,
+  "description": "Recommended inverted-V dependency graph. It preserves local geometric neighbors and avoids long cross-links.",
+  "chain": {
+    "2": {
+      "parent": 1,
+      "offset": [
+        -3,
+        -3,
+        0
+      ]
+    },
+    "3": {
+      "parent": 1,
+      "offset": [
+        -3,
+        3,
+        0
+      ]
+    },
+    "4": {
+      "parent": 3,
+      "offset": [
+        -3,
+        3,
+        0
+      ]
+    },
+    "5": {
+      "parent": 2,
+      "offset": [
+        -3,
+        -3,
+        0
+      ]
+    }
+  }
+}

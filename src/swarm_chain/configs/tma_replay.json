@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "target_drone": 1,
+  "attack_type": "tma",
+
+  "start_after_mission_s": 20.0,
+  "ramp_duration_s": 60.0,
+
+  "spoof": {
+    "bias_start": [0.0, 0.0, 0.0],
+    "bias_end": [0.0, 0.0, 0.0]
+  },
+
+  "jamming": {
+    "drop_probability_start": 0.0,
+    "drop_probability_end": 0.0
+  },
+
+  "tma": {
+    "mode": "replay",
+    "delay_start_ms": 0.0,
+    "delay_end_ms": 0.0,
+    "jitter_start_ms": 0.0,
+    "jitter_end_ms": 0.0,
+    "replay_window_ms": 10000.0
+  }
+}

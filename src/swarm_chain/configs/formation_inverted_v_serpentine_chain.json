@@ -1,0 +1,38 @@
+{
+  "leader": 1,
+  "description": "Strict single-chain inverted-V: D1->D2->D5->D3->D4.",
+  "chain": {
+    "2": {
+      "parent": 1,
+      "offset": [
+        -3,
+        -3,
+        0
+      ]
+    },
+    "5": {
+      "parent": 2,
+      "offset": [
+        -3,
+        -3,
+        0
+      ]
+    },
+    "3": {
+      "parent": 5,
+      "offset": [
+        9,
+        3,
+        0
+      ]
+    },
+    "4": {
+      "parent": 3,
+      "offset": [
+        3,
+        -3,
+        0
+      ]
+    }
+  }
+}
