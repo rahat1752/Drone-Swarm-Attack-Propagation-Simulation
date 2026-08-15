@@ -629,9 +629,3 @@ The attack implementations operate on shared coordination state inside the simul
 This repository is intended for simulation-based research and defensive evaluation.
 
 The included attack models operate inside the local ROS 2 simulation/test environment and are designed to evaluate UAV swarm robustness, propagation behavior, and defense mechanisms.
-
----
-
-## 18. Citation
-
-Citation information is intentionally omitted during anonymous review. A citation entry can be added after the review process.
