@@ -99,7 +99,7 @@ For strict reproduction, use matching PX4 and `px4_msgs` revisions. The PX4 sour
 A clean checkout should contain approximately:
 
 ```text
-DroneSys_ws/
+DroneSwarm_ws/
 ├── src/
 │   └── swarm_chain/
 │       ├── configs/
@@ -142,7 +142,7 @@ source /opt/ros/jazzy/setup.bash
 From the workspace root:
 
 ```bash
-cd ~/DroneSys_ws
+cd ~/DroneSwarm_ws
 colcon build --symlink-install
 source install/setup.bash
 ```
@@ -252,7 +252,7 @@ For a baseline, use the same attack pipeline but provide `baseline_config.json`,
 From the ROS 2 workspace:
 
 ```bash
-cd ~/DroneSys_ws
+cd ~/DroneSwarm_ws
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
 ```
